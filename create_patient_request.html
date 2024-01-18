@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light" id="mode">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\demo.css">
+    <link rel="stylesheet" href="css\intlTelInput.css">
+    <link rel="stylesheet" href="css\style.css">
+
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-between shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div class="col-auto">
+                <img src="images\Fig56. Patient site 1.png" class="logo-size ms-0 ms-sm-5" alt="error">
+            </div>
+            <div class="col-auto p-3">
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="button" id="btn-moon"><i
+                        class="bi bi-moon"></i></button>
+            </div>
+        </div>
+    
+    
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-11 col-sm-9  col-md-8 ms-4 ms-sm-5 d-flex justify-content-end">
+    
+                <a href="#">
+                    <button type="button" class="btn btn-sm btn-outline-primary"> <i class="bi bi-chevron-left"></i>
+                        Back</button>
+                </a>
+            </div>
+        </div>
+    
+    
+        <div class="container-sm container-md container-w">
+            <div class="row row-cols-1 justify-content-center gy-3 shadow-lg p-3 mb-5 bg-white rounded">
+    
+                <div class="col">
+                    <h3>Patient Information</h3>
+                </div>
+                <div class="col">
+                    <div class="form-floating">
+                        <textarea class="form-control area-size" placeholder="Enter Brief Details of Symtoms(optional)"
+                            id="floatingTextarea2"></textarea>
+                        <label for="floatingTextarea2">Enter Brief Details of Symtoms(optional)</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-md-2 gy-3">
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="text" placeholder="First Name"
+                                    aria-label="default input example">
+                                <label for="floatingInput">First Name</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="text" placeholder="Last Name"
+                                    aria-label="default input example">
+                                <label for="floatingInput">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="date" placeholder="Date of Birth"
+                                    aria-label="default input example">
+                                <label for="floatingInput">Date of Birth</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="col">
+                    <h3>Patient Contact Information</h3>
+                </div>
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-md-2 gy-3">
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="email" placeholder="Email"
+                                    aria-label="default input example">
+                                <label for="floatingInput">Email</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="tel" placeholder="Phone Number"
+                                    aria-label="default input example">
+                                <label for="floatingInput">Phone Number</label>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+    
+                <div class="col">
+                    <h3>Patient Location</h3>
+                </div>
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-md-2 gy-3">
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="text" placeholder="Street"
+                                    aria-label="default input example">
+                                <label for="floatingInput">Street</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="text" placeholder="City"
+                                    aria-label="default input example">
+                                <label for="floatingInput">City</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="text" placeholder="Sate"
+                                    aria-label="default input example">
+                                <label for="floatingInput">State</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="number" placeholder="Zip"
+                                    aria-label="default input example">
+                                <label for="floatingInput">Zipcode</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <input class="form-control" type="text" placeholder="Room"
+                                    aria-label="default input example">
+                                <label for="floatingInput">Room # / Suite (Optional)</label>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col">
+                    <h3>(Optional) Upload Photo or Document</h3>
+                </div>
+                <div class="col">
+    
+                    <div class="input-group mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                        <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                    </div>
+    
+                </div>
+    
+                <div class="col d-flex justify-content-end">
+                    <button type="button" class="btn btn-info me-3">Submit</button>
+                    <button type="button" class="btn btn-outline-info">Cancel</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <nav class="navbar sticky-bottom bg-dark">
+        <div class="container-fluid d-flex justify-content-end g-0">
+            <ul class="nav">
+                <li class="nav-item slash">
+                    <a class="nav-link text-white" aria-current="page" href="#">Terms of Conditions</a>
+                </li>
+                <div class="vr bg-white"></div>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="js\custom.js"></script>
+
+</body>
+
+</html>
